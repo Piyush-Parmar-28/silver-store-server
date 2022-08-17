@@ -33,7 +33,7 @@ app.use(
 );
 
 // CONNECTING SERVER TO MONGODB DATABASE ----------------------------------------------------------------------------
-mongoose.connect("mongodb://127.0.0.1:27017/ECommerce");
+mongoose.connect("mongodb+srv://PiyushAbhishek:007silverStore123@cluster0.1kadgth.mongodb.net/SilverStore");
 var db = mongoose.connection;
 
 db.on("error", console.log.bind(console, "Connection Error"));
