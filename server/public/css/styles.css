@@ -1,0 +1,176 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f9fd;
+  min-height: 100%;
+}
+
+main{
+  height: 100%;
+}
+
+.extra-padding {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+/* SimpleText Style for anchor tags */
+.simpleText{
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* start Rating images */
+.star-rating img{
+  width: 14px
+}
+
+/* Navbar CSS */
+.my-navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+
+/* Images */
+.fill-image{
+  object-fit: fill;
+}
+
+.item{
+  overflow:hidden;
+  margin-bottom:0;
+  background:#000;
+  opacity:1
+}
+
+.item a img{
+  transition:.8s ease
+}
+
+.item{
+  padding-bottom:10px;
+  margin-bottom:25px;
+  border-bottom:1px solid #eee
+}
+
+.item{
+  overflow:hidden;
+  margin-bottom:0;
+  background:#000;
+  opacity:1
+}
+
+.item .image{
+  transition:.8s ease
+}
+
+.item .info{
+  opacity:0
+}
+
+.item a:hover .info{
+  opacity:1
+}
+
+.item{
+  font-weight:300
+}
+
+.item .info .info-heading{
+  font-size:1em;
+  font-weight:bold
+}
+
+.info .info-body{
+  font-size:.8em;
+  margin-top:10px;
+  font-weight:300
+}
+
+.info{
+  display:grid;
+  position:absolute;
+  bottom:0;
+  left:0;
+  color:#fff;
+  padding:10px;
+  font-size:17px;
+  line-height:18px;
+  width:100%;
+  padding-top:15px;
+  padding-bottom:15px;
+  opacity:1;
+  color:#fff;
+  transition:.8s ease;
+  text-align:center;
+  text-shadow:1px 1px 1px rgba(0,0,0,.2);
+}
+
+.info .info-heading{
+  font-size:1em;
+  font-weight:bold;
+}
+
+
+/* Exclusive Offers */
+.scale-on-hover:hover{
+  transform:scale(1.07);
+  box-shadow:0px 10px 10px rgba(0,0,0,.15);
+  transition-duration: 300ms;
+}
+
+
+/* Carousel CSS */
+.carousel-item {
+  height: auto;
+  background: white;
+  color: white;
+  object-fit: cover;
+}
+
+.carousel-img {
+  height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-size: auto;
+  /* object-fit: contain; */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #ffb727;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffc85a;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Single Product */
+* {
+  box-sizing: border-box;
+}
+
+/* Hover Effect on Update Image Cards */
+.update-image:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1);
+}

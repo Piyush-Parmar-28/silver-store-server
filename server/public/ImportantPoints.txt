@@ -1,0 +1,12 @@
+A. Fetch Data in React From MongoDB Database
+    1. Get the data to an API
+    2. Now fetch data from that API using axios
+
+B. Access-Control-Allow-Origin
+    1. Access-Control-Allow-Origin will allow response to be send b/w different ports, since our server is running on different port (8000) & our frontend is running on different port (3000).
+
+
+C. Storing The Current User Data
+    1. Get the current user id from the Database
+    2. Store all the data corresponding to that user in an array.
+    3. Now export that array, such that all the files requiring the user data can get the data. 
