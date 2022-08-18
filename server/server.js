@@ -191,6 +191,10 @@ app.post("/addProduct", upload.single("image"), (req, res) => {
     try {
         const id = new ObjectId();
 
+        //  Getting tags & converting them to lowercase
+        var tagsArray= req.body.tags.split(",")
+        tagsArray = tagsArray.map(function(x){ return x.toLowerCase(); })
+
         const products = new ProductObj({
             Product: req.body.product,
             Category: req.body.category,
@@ -198,7 +202,7 @@ app.post("/addProduct", upload.single("image"), (req, res) => {
             Stock: req.body.stock,
             Price: req.body.price,
             Ratings: req.body.ratings,
-            Tags: req.body.tags.split(","),
+            Tags: tagsArray,
             Offers: req.body.offers,
             ImageID: id,
             Desc: req.body.desc,
