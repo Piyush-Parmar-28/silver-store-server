@@ -154,6 +154,25 @@ a:hover {
   color: #ffc85a;
   text-decoration: none;
 }
+.small{
+  display: none;
+}
+
+@media screen and (max-width:600px) {
+  .big{
+    display: none;
+  }
+  .small{
+    display: block;
+  }
+}
+
+.categoryHover{
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  border-radius: 2rem;
+
+}
 
 h1,
 h2,
