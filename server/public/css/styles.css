@@ -158,6 +158,7 @@ a:hover {
   display: none;
 }
 
+
 @media screen and (max-width:600px) {
   .big{
     display: none;
@@ -171,7 +172,7 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(4px);
   border-radius: 2rem;
-
+  
 }
 
 h1,
